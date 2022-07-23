@@ -50,7 +50,7 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 /* HEADER */
@@ -58,6 +58,10 @@ p {
 .header .container {
     display: flex;
     align-items: center;
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
 }
 
 .list {
@@ -447,7 +451,7 @@ p {
 .projects .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .projects {
@@ -457,13 +461,21 @@ p {
 .project-link {
     display: block;
     width: 370px;
-    /* margin-right: 30px; */
 
     color: var(--primary-text-color);
 }
 
+.project-link img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .project-link div {
     padding: 20px 24px;
+    border-bottom: 1px solid #ECECEC;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
 }
 
 .project-title {
