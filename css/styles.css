@@ -169,16 +169,22 @@ p {
 /* HERO */
 
 .hero {
-    background-color: var(--footer-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     text-align: center;
+
+    background-color: var(--footer-color);   
 }
 
 .hero-title {
     color: var(--secondary-text-color);
 
+    width: 696px;
     margin-bottom: 30px;
-
+    margin-right: auto;
+    margin-left: auto;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -224,6 +230,7 @@ p {
 
 .advantages .item {
     margin-right: 30px;
+    width: 270px;
 }
 
 .advantages .item:last-child {
@@ -352,13 +359,15 @@ p {
 /* FOOTER */
 
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--footer-color);
 }
 
 .footer-logo {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -375,8 +384,6 @@ p {
 }
 
 .footer-address {
-    padding-bottom: 60px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -401,18 +408,15 @@ p {
 
 /* ТИПЫ УСЛУГ */
 
-.portfolio-nav .list {
+.btns {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 }
 
-.portfolio-nav {
+.portfolio {
     padding-top: 94px;
-    padding-bottom: 50px;
-}
-
-.portfolio-nav .item:not(last-child) {
-    margin-right: 8px;
+    padding-bottom: 94px;
 }
 
 .service-button {
@@ -448,14 +452,10 @@ p {
 
 /* НАШИ ПРОЕКТЫ */
 
-.projects .list {
+.projects {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
-
-.projects {
-    padding-bottom: 94px;
 }
 
 .project-link {
